@@ -20,5 +20,3 @@ github_username:  walkerofthesky
 # Build settings
 markdown: kramdown
 permalink: /articles/:title
-
-theme: jekyll-theme-tactile
