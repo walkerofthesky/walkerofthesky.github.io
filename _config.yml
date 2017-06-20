@@ -20,3 +20,17 @@ github_username:  walkerofthesky
 # Build settings
 markdown: kramdown
 permalink: /articles/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: "page"
