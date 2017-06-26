@@ -10,9 +10,11 @@ title: Dustin Parker's Blog
 email: adamdustinparker@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   My thoughts and insights as I traverse the world of web development, technology, and anything else I feel like talking about.
+tagline: Web dev, tech, & anything else
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://walkerofthesky.github.io/" # the base hostname & protocol for your site
-twitter_username: aDustinParker
+twitter_username:
+linkedin_username: adamdustinparker
 github_username:  walkerofthesky
 
 # Build settings

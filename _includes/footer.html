@@ -3,15 +3,14 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="footer-col">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -24,11 +23,15 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
-        </ul>
-      </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+          {% if site.linkedin_username %}
+          <li>
+            {% include icon-linkedin.html username=site.linkedin_username %}
+          </li>
+          {% endif %}
+
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
       </div>
     </div>
 
