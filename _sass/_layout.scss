@@ -166,6 +166,7 @@ body {
  */
 .page-content {
     grid-area: content;
+    max-width: 100%; // Safari fix
     padding: $spacing-unit 0;
 }
 
